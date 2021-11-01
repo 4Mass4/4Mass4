@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: verdana, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {}
+
+header div {
+    border: 30px solid white;
+    height: 200px;
+    width: 25%;
+    background-color: royalblue;
+    float: left;
+}
+
+header div:nth-child(1) {
+    background-color: greenyellow;
+}
+
+header div:nth-child(2) {
+    background-color: firebrick;
+}
+
+header div:nth-child(3) {
+    background-color: deepskyblue;
+}
+
+header div:nth-child(4) {
+    background-color: orange;
+}
+
+header div:nth-child(1):hover {
+    background-color: cadetblue;
+}
+
+header div:nth-child(2):hover {
+    background-color: green;
+}
+
+header div:nth-child(3):hover {
+    background-color: grey;
+}
+
+header div:nth-child(4):hover {
+    background-color: pink;
+}
+
+nav {
+    /*    margin: 20px 0;*/
+    background-color: black;
+    padding: 10px 0 10px 50px;
+    /*  height: 50px;*/
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+nav ul li {
+
+    width: 25%;
+    float: left;
+
+}
+
+nav ul li a {
+    display: block;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 26px;
+    color: white;
+    float: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+nav ul li a:hover {
+    background-color: gray;
+    color: yellow;
+    border-color: yellow;
+}
+
+div.blog {
+    margin-top: 40px;
+}
+
+main {
+    float: left;
+    width: 65%;
+    padding: 0 20px 0 20px;
+}
+
+main article img {
+    width: 200px;
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+
+article p {
+    margin-top: 20px;
+}
+
+article h1 {
+    text-transform: uppercase;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+section.contact {
+    background-color: #ddd;
+    padding: 15px;
+}
+
+section.contact p {
+    margin-bottom: 30px;
+}
+
+section.contact ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+
+}
